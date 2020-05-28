@@ -89,16 +89,19 @@
     position: absolute;
     width: 40px;
     height: 2px;
-    left: 250px;
-    top: 39px;
 }
 
-#Rectangle {
+#Rectangle1 {
     position: absolute;
     width: 16px;
     height: 2px;
-    left: 274px;
-    top: 39px;
     background: #FEE040;
 }
 
+#Rectangle2 {
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    left: 24px;
+    background: #FEE040;
+}
