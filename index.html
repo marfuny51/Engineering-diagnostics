@@ -5,11 +5,12 @@
   <meta charset=UTF-8>
   <meta name="viewport" content="width=device-width, height=device-height, target-densitydpi=device-dpi, initial-scale=1">
   <title>Engineering diagnostics</title>
-  <script src="script.js"></script>
   <link rel='stylesheet' href='style.css' type='text/css'>
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src='https://raw.github.com/brandonaaron/jquery-mousewheel/master/jquery.mousewheel.js'></script>
 </head>
 
 <body>
@@ -51,8 +52,9 @@
             <div id='f_third'><img src='images/03_stroke.svg'><div id='third'>Всегда называем<br> справедливую цену</div></div>
           </div>
           <div id='video'>
-            <img src='images/706181.jpg'>
-            <img src='images/polygon.png'>
+            <img src='images/stamp.svg' id='stamp'>
+            <img src='images/706181.jpg' id="ellipse">
+            <img src='images/polygon.png' id='but_video'>
           </div>
         </div>
         <div id='line1'></div>
@@ -90,32 +92,59 @@
           <p id='dom1'>Экспертиза отдельных конструкций, обмерные работы,<br> определение прочности, расчет несущей способности<br> и т.д.</p>
           <img src='images/more.png'>
         </div>
-        <div id='list2'>
+        <div id='list1'>
           <img src='images/build.jpg'>
           <p id='dom'>Тепловизионная съемка</p>
           <p id='dom1'>Исследование системы отопления, вентиляции<br> и кондиционирования, а также оценка<br> энергоэффективности здания</p>
           <img src='images/more.png'>
         </div>
-        <div id='list3'>
+        <div id='list1'>
           <img src='images/services_engin.jpg'>
           <p id='dom'>Телеинспекция инженерных сетей</p>
           <p id='dom1'>Цветная телевизионная съемка внутренней<br> поверхности любых протяженных объектов<br> до 250 метров</p>
           <img src='images/more.png'>
         </div>
-        <div id='list4'>
-          <img src='images/04.jpg'>
+        <div id='list1'>
+          <img src='images/04.jpg' style='width: 400px; height: 180px;'>
           <p id='dom'>Тахеометрическая съемка</p>
           <p id='dom1'>Построение чертежей при помощи лазера,<br> который с точностью до микрона определяет<br> расположение объектов в пространстве</p>
           <img src='images/more.png'>
         </div>
-        <div id='list5'>
-          <img src='images/04.jpg'>
-          <p id='dom'>Диагностика высотных сооружений</p>
+        <div id='list1'>
+          <img src='images/04.jpg' style='width: 400px; height: 180px;'>
+          <p id='dom'>Диагностика высотных</p>
           <p id='dom1'>Оценка состояния антенн и дымовых<br> труб при помощи альпинистов и квадрокоптеров<br> с 30-кратным зумом</p>
           <img src='images/more.png'>
         </div>
       </div>
+      <div id='line5'></div>
+      <div id='line6'></div>
+      <div id='line7'></div>
+      <div id='line8'></div>
     </div>
     <img src='images/progress bar.png' id='progress'>
   </div>
+  
+  <div class='steps'>
+    <div id='header'>
+      <img src='images/we_work.png'>
+      <p id='s_first'>чтобы Вы не тратили время на поиск и организацию<br> множества подрядчиков</p>
+    </div>
+    <div id='step_1'>
+      <div id='foto_slider'></div>
+      <div id='desk'>
+        <div id='header'>
+          <div id='step'>шаг №1. </div><p id='s_second'>Подготовительные работы</p>
+          <p id='s_trird'>Мы осматриваем здание, делаем замеры и проверяем<br> наличие визуально заметных дефектов: трещин,<br> коррозии, повреждения фундамента и т.д. </p>
+        </div>
+        <div id='quote'>
+          <img src='images/Ellipse.svg' id='ellipse_svg'>
+          <img src='images/706181.jpg' id='ellipse2'>
+          
+          <p id='q_first'>“Задача этого этапа получить максимально полное<br> представление о конструкции здания, условиях его<br> эксплуатации и возможных слабых местах“</p>
+          <p id='q_second'>АЛЕКСЕЙ, обследователь и главный инженер проектов</p>
+        </div>
+      </div>
+  </div>
+  <script src="script.js"></script>
 </body>

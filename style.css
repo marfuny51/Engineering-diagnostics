@@ -224,6 +224,7 @@ body {
     width: 220px;
     height: 220px;
     float: right;
+    text-align: center;
 }
 
 #line1 {
@@ -351,7 +352,7 @@ body {
 }
 
 #uslugi {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
     font-size: 20px;
     line-height: 16px;
     letter-spacing: 20px;
@@ -373,13 +374,21 @@ body {
     position: absolute;
     left: 0;
     top: 1450px;
+    display: flex;
+    flex-wrap:nowrap;
+    overflow-x: scroll;
+}
+
+#list::-webkit-scrollbar {width:0px; height: 0;}
+
+#list div:first-child {
+    margin-left: 250px;
 }
 
 #list1 {
     width: 400px;
     height: 381px;
-    position: absolute;
-    left: 250px;
+    margin-right: 80px;
 }
 
 #list2 {
@@ -408,7 +417,6 @@ body {
     height: 381px;
     position: absolute;
     left: 2170px;
-    display: none;
 }
 
 #dom {
@@ -431,6 +439,197 @@ body {
     top: 1886px;
 }
 
+.steps {
+    width: 1920px;
+    height: 800px;
+}
+
+.steps #header {
+    width: 838px;
+    height: 156px;
+    position: absolute;
+    left: 541px;
+    top: 2074px;
+    text-align: center;
+}
+
+#s_first {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    color: #505050;
+}
+
+#step_1 {
+    width: 1920px;
+    height: 441px;
+    position: absolute;
+    top:2330px;
+}
+
+#foto_slider {
+    width: 960px;
+    height: 441px;
+    background-image: url('images/henry.jpg');
+    float: left;
+}
+
+#desk {
+    width: 960px;
+    height: 441px;
+    background-color: #F5F5F5;
+    float: right;
+}
+
+#desk #header {
+    width: 460px;
+    height: 130px;
+    position: absolute;
+    left:1030px;
+    top:80px;
+}
+
+#step {
+    width: 107px;
+    height: 27px;
+    background-color: #FEE040;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #151515;
+    float: left;
+    margin-right: -40px;
+}
+
+#s_second {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    color: #151515;
+    margin: 0;;
+}
+
+#s_trird {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    color: #333333;
+    opacity: 0.7;
+}
+
+#quote {
+    width: 501px;
+    height: 119px;
+    position: absolute;
+    left:1030px;
+    top:240px;
+}
+
+#ellipse2 {
+    width: 56px;
+    height: 56px;
+    float: left;
+    border-radius: 100px; 
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 1px;
+    left: 3px;
+}
+
+#ellipse_svg {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -31px;
+    left: -44px;
+}
+
+#q_first {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    color: #505050;
+    opacity: 0.7;
+    margin: 0 0 0 100px;
+}
+
+#q_second {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #151515;
+    opacity: 0.7;
+    margin: 20px 0 0 100px;
+}
+
+#line5 {
+    position: absolute;
+    left: 250px;
+    top: 1217px;
+    width: 2px;
+    height: 753px;
+    opacity: 0.1;
+    background-color: white;
+}
+
+#line6 {
+    position: absolute;
+    left: 730px;
+    top: 1217px;
+    width: 2px;
+    height: 753px;
+    opacity: 0.1;
+    background-color: white;
+}
+
+#line7 {
+    position: absolute;
+    left: 1210px;
+    top: 1217px;
+    width: 2px;
+    height: 753px;
+    opacity: 0.1;
+    background-color: white;
+}
+
+#line8 {
+    position: absolute;
+    left: 1670px;
+    top: 1217px;
+    width: 2px;
+    height: 753px;
+    opacity: 0.1;
+    background-color: white;
+}
+
+#ellipse {
+    width: 140px;
+    height: 140px;
+    border-radius: 100px; 
+    box-shadow: 0 0 7px #666; 
+    margin-top: 40px;
+}
+
+#stamp {
+    position: absolute;
+    top: 0;
+    left: 1200px;
+}
+
+#but_video {
+    position: absolute;
+    top: 100px;
+    left: 1300px;
+}
+
+#but_video:hover {
+    cursor: pointer;
+}
 
 
 
