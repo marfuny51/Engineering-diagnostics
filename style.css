@@ -1,10 +1,14 @@
-#hero {
-    position: absolute;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
     width: 1920px;
-    height: 1280px;
-    left: 0px;
-    top: 0px;
+    height: 768px;
     background: url('images/sean-pollock-203658-unsplash.jpg');
+    margin: 0;
+    padding: 0;
 }
 
 #hero-bg-mask {
@@ -156,9 +160,16 @@
     width: 340px;
     height: 70px; 
     background: #FEE040;
-    border-radius: 2px;  
+    border-radius: 4px;  
     text-align: center;
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 15px;
 }
 
 #b_first {
@@ -167,3 +178,259 @@
     color: #FFFFFF; 
     line-height: 28px;
 }
+
+#button img {
+    margin-right: 12px;
+}
+
+#button:hover {
+    background: #b59e25;
+    cursor: pointer;
+}
+
+#bot {
+    width: 1420.14px;
+    height: 228px;
+    margin: auto;
+    position: absolute;
+    left:249.86px;
+    top:480px;
+}
+
+#features {
+    width: 1020.14px;
+    height: 56px;
+    position:absolute; 
+    bottom:0;
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+#f_first, #f_second, #f_third {
+    width: 260.14px;
+    height: 56px;
+    float: left;
+    margin-right: 99.86px;
+}
+
+#first, #second, #third {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF; 
+    float: right;
+}
+
+#video {
+    width: 220px;
+    height: 220px;
+    float: right;
+}
+
+#line1 {
+    position: absolute;
+    left: 250px;
+    top: 80px;
+    width: 2px;
+    height: 688px;
+    opacity: 0.1;
+    background-color: white;
+}
+
+#line2 {
+    position: absolute;
+    left: 730px;
+    top: 80px;
+    width: 2px;
+    height: 688px;
+    opacity: 0.1;
+    background-color: white;
+}
+
+#line3 {
+    position: absolute;
+    left: 1210px;
+    top: 80px;
+    width: 2px;
+    height: 688px;
+    opacity: 0.1;
+    background-color: white;
+}
+
+#line4 {
+    position: absolute;
+    left: 1670px;
+    top: 80px;
+    width: 2px;
+    height: 688px;
+    opacity: 0.1;
+    background-color: white;
+}
+
+.why_we {
+    width: 1920px;
+    height: 449px;
+}
+
+.why_we #header{
+    position: absolute;
+    left: 250px;
+    top: 868px;
+    width: 460px;
+    height: 260px;
+}
+
+#about1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 28px; 
+}
+
+#about2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #707070;
+    opacity: 0.7;
+    line-height: 28px;
+}
+
+#right_content {
+    width: 445px;
+    height: 178px;
+    position: absolute;
+    left: 1210px;
+    top: 904px;
+}
+
+#right_content p{
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#right_content span{
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: #333333;
+    opacity: 0.7;
+    letter-spacing: 1px;
+    line-height: 28px;
+    float: right;
+}
+
+#right_content div{
+    margin-bottom: 5px;
+}
+
+#tv {
+    width: 300px;
+    height: 295px;
+    position: absolute;
+    left: 810px;
+    top: 864px;
+}
+
+.services {
+    width: 1920px;
+    height: 753px;
+    background-image: url('images/patrick-tomasso-89367-unsplash.jpg');
+}
+
+#services_mask {
+    width: 1920px;
+    height: 753px;
+    background: linear-gradient(180deg, rgba(0, 78, 134, 0.9) 0%, rgba(10, 65, 104, 0.9) 100%);
+}
+
+.services #header {
+    width: 1085px;
+    height: 78px;
+    position: absolute;
+    left: 483px;
+    top: 1317px;
+    text-align: center;
+}
+
+#uslugi {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    color: #FEE040;
+}
+
+#uslugi2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+#list {
+    width: 1920px;
+    height: 415px;
+    position: absolute;
+    left: 0;
+    top: 1450px;
+}
+
+#list1 {
+    width: 400px;
+    height: 381px;
+    position: absolute;
+    left: 250px;
+}
+
+#list2 {
+    width: 400px;
+    height: 381px;
+    position: absolute;
+    left: 730px;
+}
+
+#list3 {
+    width: 400px;
+    height: 381px;
+    position: absolute;
+    left: 1210px;
+}
+
+#list4 {
+    width: 400px;
+    height: 381px;
+    position: absolute;
+    left: 1690px;
+}
+
+#list5 {
+    width: 400px;
+    height: 381px;
+    position: absolute;
+    left: 2170px;
+    display: none;
+}
+
+#dom {
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#dom1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+#progress {
+    position: absolute;
+    top: 1886px;
+}
+
+
+
+
