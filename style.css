@@ -4,8 +4,8 @@ body {
 }
 
 .hero {
-    width: 1920px;
-    height: 768px;
+    width: 99vw;
+    height: 40vw;
     background: url('images/sean-pollock-203658-unsplash.jpg');
     margin: 0;
     padding: 0;
@@ -13,174 +13,173 @@ body {
 
 #hero-bg-mask {
     position: absolute;
-    width: 1920px;
-    height: 768px;
-    left: 0px;
-    top: 0px;
+    width: 99vw;
+    height: 40vw;
+    left: 0;
+    top: 0;
     background: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%);
 }
 
 #main {
-    border-bottom: 2px solid #5889AD;
+    border-bottom: 0.1vw solid #5889AD;
 }
 
 #nav {
-    width: 1420px;
-    height: 80px;
+    width: 75vw;
+    height: 4vw;
     margin: 0 auto;
 }
 
 #rect1 {
     position: absolute;
-    left:250px;
-    top:29px;
+    left: 13vw;
+    top: 1.5vw;
 }
 
 #rect2 {
     position: absolute;
-    left:250px;
-    top:49px;
+    left:13vw;
+    top:2.6vw;
 }
 
 #rect3 {
     position: absolute;
-    left:250px;
-    top:39px;
+    left:13vw;
+    top:2.05vw;
 }
 
 #rect4 {
     position: absolute;
-    left:274px;
-    top:39px;
+    left:14.25vw;
+    top:2.05vw;
 }
 
 #logo {
+    width: 11vw;
+    height: auto;
     position: absolute;
-    left:370px;
-    top:26px;
+    left: 20vw;
+    top: 1.4vw;
 }
 
 #mail {
     position: absolute;
-    left:1210px;
-    top:23px;
+    left: 63vw;
+    top: 1.3vw;
 }
 
 #mail img {
-    width: 17px;
+    width: 1vw;
     height: auto;
 }
 
 #write {
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
-    line-height: 12px;
+    font-size: 0.8vw;
+    line-height: 0.7vw;
     color: #FFFFFF;
     opacity: 0.5;
-    margin: 0 0 6px 0;
+    margin: 0 0 0.3vw 0;
 }
 
 #e-mail {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    line-height: 12px;
+    font-size: 0.8vw;
+    line-height: 0.4vw;
     text-align: right;
     color: #FEE040;
-    margin-left: 9.5px;
+    margin-left: 0.5vw;
+    letter-spacing: 0.02vw;
 }
 
 #number {
     float: right;
-    margin-top:18px;
+    margin-top:1vw;
+    text-align: right;
 }
 
 #number img {
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
     color: #FFFFFF;
     opacity: 0.5;
-    margin-right: 7px;
+    margin-right: 0.4vw;
 }
 
 #number span {
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 0.8vw;
     color: #FFFFFF;
     opacity: 0.5;
 }
 
 #number p {
     font-family: 'Lato', sans-serif;
-    font-size: 22px;
+    font-size: 1.3vw;
     color: #FFFFFF;
-}
-
-#phone {
-    margin: 0 0 6px 0;
+    margin: 0 0 1vw 0;
 }
 
 #content {
-    width: 1180px;
-    height: 209px;
+    width: 61.5vw;
+    height: 11vw;
     margin: auto;
     position: absolute;
-    left:370px;
-    top:208px;
+    left: 19.3vw;
+    top: 11vw;
 }
 
 #header {
-    width: 580px;
-    height: 209px;
+    width: 30vw;
+    height: 11vw;
     float: left;
 }
 
 #but {
-    width: 340px;
-    height: 194px;
+    width: 17.8vw;
+    height: 11vw;
     float: right;
 }
 
 #h_first {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 42px;
+    font-size: 2.2vw;
     color: white;
-    margin: 0 0 38px 0;
+    margin: 0 0 1.5vw 0;
 }
 
 #h_second {
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 1vw;
     color: #FFFFFF;
-    letter-spacing: 5px;
-    line-height: 34px;
+    letter-spacing: 0.3vw;
+    line-height: 1.8vw;
     margin: 0;
 }
 
 #button {
-    width: 340px;
-    height: 70px; 
+    width: 17.8vw;
+    height: 3.5vw;
     background: #FEE040;
-    border-radius: 4px;  
+    border-radius: 0.2vw;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2vw;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 14px;
-    letter-spacing: 2px;
-    line-height: 15px;
+    font-size: 0.9vw;
+    letter-spacing: 0.1vw;
 }
 
 #b_first {
     font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    color: #FFFFFF; 
-    line-height: 28px;
+    font-size: 0.75vw;
+    color: #FFFFFF;
+    line-height: 1.5vw;
 }
 
 #button img {
-    margin-right: 12px;
+    margin-right: 0.7vw;
 }
 
 #button:hover {
@@ -189,17 +188,17 @@ body {
 }
 
 #bot {
-    width: 1420.14px;
-    height: 228px;
+    width: 74vw;
+    height: 11.5vw;
     margin: auto;
     position: absolute;
-    left:249.86px;
-    top:480px;
+    left: 13vw;
+    top: 25vw;
 }
 
 #features {
-    width: 1020.14px;
-    height: 56px;
+    width: 65vw;
+    height: 3vw;
     position:absolute; 
     bottom:0;
     display: flex;
@@ -207,429 +206,429 @@ body {
 }
 
 #f_first, #f_second, #f_third {
-    width: 260.14px;
-    height: 56px;
+    width: 14.5vw;
+    height: 3vw;
     float: left;
-    margin-right: 99.86px;
+    margin-right: 5vw;
 }
 
 #first, #second, #third {
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 1.1vw;
     color: #FFFFFF; 
     float: right;
 }
 
+#f_first img, #f_second img, #f_third img {
+    width: 2.5vw;
+    height: auto;
+}
+
 #video {
-    width: 220px;
-    height: 220px;
+    width: 11.5vw;
+    height: 11.5vw;
     float: right;
     text-align: center;
 }
 
 #line1 {
     position: absolute;
-    left: 250px;
-    top: 80px;
-    width: 2px;
-    height: 688px;
+    left: 13vw;
+    top: 4vw;
+    width: 0.2vw;
+    height: 36vw;
     opacity: 0.1;
     background-color: white;
 }
 
 #line2 {
     position: absolute;
-    left: 730px;
-    top: 80px;
-    width: 2px;
-    height: 688px;
+    left: 38vw;
+    top: 4vw;
+    width: 0.2vw;
+    height: 36vw;
     opacity: 0.1;
     background-color: white;
 }
 
 #line3 {
     position: absolute;
-    left: 1210px;
-    top: 80px;
-    width: 2px;
-    height: 688px;
+    left: 63vw;
+    top: 4vw;
+    width: 0.2vw;
+    height: 36vw;
     opacity: 0.1;
     background-color: white;
 }
 
 #line4 {
     position: absolute;
-    left: 1670px;
-    top: 80px;
-    width: 2px;
-    height: 688px;
+    left: 87vw;
+    top: 4vw;
+    width: 0.2vw;
+    height: 36vw;
     opacity: 0.1;
     background-color: white;
 }
 
 .why_we {
-    width: 1920px;
-    height: 449px;
+    width: 99vw;
+    height: 23.5vw;
 }
 
 .why_we #header{
     position: absolute;
-    left: 250px;
-    top: 868px;
-    width: 460px;
-    height: 260px;
+    left: 13vw;
+    top: 46vw;
+    width: 24vw;
+    height: 14vw;
 }
 
 #about1 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 28px; 
+    font-size: 1.5vw; 
+    margin-top: 0;
 }
 
 #about2 {
     font-family: 'Lato', sans-serif;
-    font-size: 13px;
-    letter-spacing: 1px;
+    font-size: 0.8vw;
+    letter-spacing: 0.05vw;
     color: #707070;
     opacity: 0.7;
-    line-height: 28px;
+    line-height: 1.5vw;
 }
 
 #right_content {
-    width: 445px;
-    height: 178px;
+    width: 23vw;
+    height: 11vw;
     position: absolute;
-    left: 1210px;
-    top: 904px;
+    left: 63vw;
+    top: 47vw;
 }
 
 #right_content p{
     font-family: 'Lato', sans-serif;
-    font-size: 23px;
+    font-size: 1.2vw;
     font-weight: bold;
 }
 
 #right_content span{
     font-family: 'Lato', sans-serif;
-    font-size: 17px;
+    font-size: 0.85vw;
     color: #333333;
     opacity: 0.7;
-    letter-spacing: 1px;
-    line-height: 28px;
+    letter-spacing: 0.05vw;
+    line-height: 1.5vw;
     float: right;
 }
 
 #right_content div{
-    margin-bottom: 5px;
+    margin-bottom: 0.2vw;
 }
 
 #tv {
-    width: 300px;
-    height: 295px;
+    width: 15vw;
+    height: auto;
     position: absolute;
-    left: 810px;
-    top: 864px;
+    left: 43vw;
+    top: 45vw;
 }
 
 .services {
-    width: 1920px;
-    height: 753px;
+    width: 99vw;
+    height: 40vw;
     background-image: url('images/patrick-tomasso-89367-unsplash.jpg');
 }
 
 #services_mask {
-    width: 1920px;
-    height: 753px;
+    width: 99vw;
+    height: 40vw;
     background: linear-gradient(180deg, rgba(0, 78, 134, 0.9) 0%, rgba(10, 65, 104, 0.9) 100%);
 }
 
 .services #header {
-    width: 1085px;
-    height: 78px;
+    width: 60vw;
+    height: 6vw;
     position: absolute;
-    left: 483px;
-    top: 1317px;
+    left: 22vw;
+    top: 68vw;
     text-align: center;
 }
 
 #uslugi {
     font-family: 'Bebas Neue';
-    font-size: 20px;
-    line-height: 16px;
-    letter-spacing: 20px;
+    font-size: 1.2vw;
+    line-height: 0vw;
+    letter-spacing: 1vw;
     text-transform: uppercase;
     color: #FEE040;
 }
 
 #uslugi2 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 32px;
-    line-height: 42px;
-    letter-spacing: -0.5px;
+    font-size: 1.7vw;
+    line-height: 3vw;
+    letter-spacing: -0.02vw;
     color: #FFFFFF;
 }
 
 #list {
-    width: 1920px;
-    height: 415px;
+    width: 99vw;
+    height: 21.5vw;
     position: absolute;
     left: 0;
-    top: 1450px;
+    top: 76vw;
     display: flex;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     overflow-x: scroll;
 }
 
-#list::-webkit-scrollbar {width:0px; height: 0;}
+#list::-webkit-scrollbar {width: 0; height: 0;}
 
 #list div:first-child {
-    margin-left: 250px;
+    margin-left: 13vw;
 }
 
 #list1 {
-    width: 400px;
-    height: 381px;
-    margin-right: 80px;
+    width: 21vw;
+    height: 21vw;
+    margin-right: 4.2vw;
 }
 
-#list2 {
-    width: 400px;
-    height: 381px;
-    position: absolute;
-    left: 730px;
-}
-
-#list3 {
-    width: 400px;
-    height: 381px;
-    position: absolute;
-    left: 1210px;
-}
-
-#list4 {
-    width: 400px;
-    height: 381px;
-    position: absolute;
-    left: 1690px;
-}
-
-#list5 {
-    width: 400px;
-    height: 381px;
-    position: absolute;
-    left: 2170px;
+#list1 img {
+    width: 20.9vw;
+    height: auto;
 }
 
 #dom {
     font-family: 'Lato', sans-serif;
-    font-size: 23px;
+    font-size: 1.15vw;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 0.05vw;
 }
 
 #dom1 {
     font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    line-height: 26px;
+    font-size: 0.82vw;
+    line-height: 1.5vw;
     color: #FFFFFF;
     opacity: 0.7;
 }
 
 #progress {
+    width: 30vw;
+    height: auto;
     position: absolute;
-    top: 1886px;
+    top: 99.5vw;
 }
 
 .steps {
-    width: 1920px;
-    height: 800px;
+    width: 99vw;
+    height: 41vw;
 }
 
 .steps #header {
-    width: 838px;
-    height: 156px;
+    width: 44vw;
+    height: 8vw;
     position: absolute;
-    left: 541px;
-    top: 2074px;
+    left: 28vw;
+    top: 109vw;
     text-align: center;
 }
 
 #s_first {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1vw;
+    line-height: 2vw;
     color: #505050;
 }
 
 #step_1 {
-    width: 1920px;
-    height: 441px;
+    width: 99vw;
+    height: 23vw;
     position: absolute;
-    top:2330px;
+    top: 122vw;
 }
 
 #foto_slider {
-    width: 960px;
-    height: 441px;
-    background-image: url('images/henry.jpg');
+    width: 50vw;
+    height: 23vw;
+    background-image: url(images/henry.jpg);
+    background-size: cover;
     float: left;
 }
 
 #desk {
-    width: 960px;
-    height: 441px;
+    width: 49vw;
+    height: 23vw;
     background-color: #F5F5F5;
     float: right;
 }
 
 #desk #header {
-    width: 460px;
-    height: 130px;
+    width: 24vw;
+    height: 6vw;
     position: absolute;
-    left:1030px;
-    top:80px;
+    left: 54vw;
+    top: 4.5vw;
 }
 
 #step {
-    width: 107px;
-    height: 27px;
+    width: 5vw;
+    height: 1.3vw;
     background-color: #FEE040;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 0.87vw;
     font-weight: bold;
-    line-height: 23px;
-    letter-spacing: 3px;
+    line-height: 1.4vw;
+    letter-spacing: 0.05vw;
     text-transform: uppercase;
     color: #151515;
     float: left;
-    margin-right: -40px;
+    margin-right: -2vw;
 }
 
 #s_second {
     font-family: 'Lato', sans-serif;
-    font-size: 21px;
+    font-size: 1.1vw;
     font-weight: bold;
-    line-height: 24px;
-    letter-spacing: -0.5px;
+    line-height: 1vw;
     color: #151515;
-    margin: 0;;
+    margin: 0;
 }
 
 #s_trird {
     font-family: 'Lato', sans-serif;
-    font-size: 17px;
+    font-size: 0.9vw;
     text-align: left;
     color: #333333;
     opacity: 0.7;
 }
 
 #quote {
-    width: 501px;
-    height: 119px;
+    width: 25vw;
+    height: 6vw;
     position: absolute;
-    left:1030px;
-    top:240px;
+    left: 54vw;
+    top: 13vw;
 }
 
 #ellipse2 {
-    width: 56px;
-    height: 56px;
+    width: 3vw;
+    height: 3vw;
     float: left;
-    border-radius: 100px; 
-    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 99vw;
+    box-shadow: 0vw 1vw 4vw rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 1px;
-    left: 3px;
+    top: 0vw;
+    left: 0.15vw;
 }
 
 #ellipse_svg {
-    width: 150px;
-    height: 150px;
+    width: 9vw;
+    height: 9vw;
     position: absolute;
-    top: -31px;
-    left: -44px;
+    top: -2.08vw;
+    left: -2.85vw;
 }
 
 #q_first {
     font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 0.8vw;
+    line-height: 1.2vw;
     color: #505050;
     opacity: 0.7;
-    margin: 0 0 0 100px;
+    margin: 0 0 0 5vw;
 }
 
 #q_second {
     font-family: 'Lato', sans-serif;
-    font-size: 13px;
+    font-size: 0.72vw;
     font-weight: bold;
     color: #151515;
     opacity: 0.7;
-    margin: 20px 0 0 100px;
+    margin: 1vw 0 0 5vw;
 }
 
 #line5 {
     position: absolute;
-    left: 250px;
-    top: 1217px;
-    width: 2px;
-    height: 753px;
+    left: 13vw;
+    top: 63.5vw;
+    width: 0.2vw;
+    height: 40vw;
     opacity: 0.1;
     background-color: white;
 }
 
 #line6 {
     position: absolute;
-    left: 730px;
-    top: 1217px;
-    width: 2px;
-    height: 753px;
+    left: 38vw;
+    top: 63.5vw;
+    width: 0.2vw;
+    height: 40vw;
     opacity: 0.1;
     background-color: white;
 }
 
 #line7 {
     position: absolute;
-    left: 1210px;
-    top: 1217px;
-    width: 2px;
-    height: 753px;
+    left: 63vw;
+    top: 63.5vw;
+    width: 0.2vw;
+    height: 40vw;
     opacity: 0.1;
     background-color: white;
 }
 
 #line8 {
     position: absolute;
-    left: 1670px;
-    top: 1217px;
-    width: 2px;
-    height: 753px;
-    opacity: 0.1;
+    left: 87vw;
+    top: 63.5vw;
+    width: 0.2vw;
+    height: 40vw;
+    opacity: 0.1;do
     background-color: white;
 }
 
 #ellipse {
-    width: 140px;
-    height: 140px;
-    border-radius: 100px; 
-    box-shadow: 0 0 7px #666; 
-    margin-top: 40px;
+    width: 7vw;
+    height: 7vw;
+    border-radius: 100vw;
+    margin-top: 2.2vw;
 }
 
 #stamp {
+    width: 11.5vw;
+    height: 11.5vw;
     position: absolute;
     top: 0;
-    left: 1200px;
+    left: 62.5vw;
 }
 
 #but_video {
+    width: 1.5vw;
+    height: auto;
     position: absolute;
-    top: 100px;
-    left: 1300px;
+    top: 5vw;
+    left: 68vw;
 }
 
 #but_video:hover {
     cursor: pointer;
 }
 
+#icon {
+    width: 1.5vw;
+    height: auto;
+}
 
+#list1 #more {
+    width: 10vw;
+    height: auto;
+}
 
+#work {
+    width: 43vw;
+    height: auto;
+}
