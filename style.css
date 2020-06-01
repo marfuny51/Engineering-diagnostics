@@ -4,8 +4,8 @@ body {
 }
 
 .hero {
-    width: 99vw;
-    height: 40vw;
+    width: 1920px;
+    height: 768px;
     background: url('images/sean-pollock-203658-unsplash.jpg');
     margin: 0;
     padding: 0;
@@ -13,173 +13,161 @@ body {
 
 #hero-bg-mask {
     position: absolute;
-    width: 99vw;
-    height: 40vw;
-    left: 0;
-    top: 0;
+    width: 1920px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
     background: linear-gradient(180deg, rgba(0, 78, 134, 0.8) 0%, rgba(10, 65, 104, 0.8) 100%);
 }
 
 #main {
-    border-bottom: 0.1vw solid #5889AD;
+    border-bottom: 2px solid #5889AD;
 }
 
 #nav {
-    width: 75vw;
-    height: 4vw;
+    width: 1420px;
+    height: 80px;
     margin: 0 auto;
 }
 
-#rect1 {
+#rect {
     position: absolute;
-    left: 13vw;
-    top: 1.5vw;
+    left:250px;
+    top:29px;
 }
 
-#rect2 {
-    position: absolute;
-    left:13vw;
-    top:2.6vw;
-}
-
-#rect3 {
-    position: absolute;
-    left:13vw;
-    top:2.05vw;
-}
-
-#rect4 {
-    position: absolute;
-    left:14.25vw;
-    top:2.05vw;
+#rect:hover {
+    cursor: pointer;
 }
 
 #logo {
-    width: 11vw;
-    height: auto;
     position: absolute;
-    left: 20vw;
-    top: 1.4vw;
+    left:370px;
+    top:26px;
 }
 
 #mail {
     position: absolute;
-    left: 63vw;
-    top: 1.3vw;
+    left:1210px;
+    top:23px;
 }
 
 #mail img {
-    width: 1vw;
+    width: 17px;
     height: auto;
 }
 
 #write {
     font-family: 'Lato', sans-serif;
-    font-size: 0.8vw;
-    line-height: 0.7vw;
+    font-size: 14px;
+    line-height: 12px;
     color: #FFFFFF;
     opacity: 0.5;
-    margin: 0 0 0.3vw 0;
+    margin: 0 0 6px 0;
 }
 
 #e-mail {
     font-family: 'Lato', sans-serif;
-    font-size: 0.8vw;
-    line-height: 0.4vw;
+    font-size: 16px;
+    line-height: 12px;
     text-align: right;
     color: #FEE040;
-    margin-left: 0.5vw;
-    letter-spacing: 0.02vw;
+    margin-left: 9.5px;
 }
 
 #number {
     float: right;
-    margin-top:1vw;
-    text-align: right;
+    margin-top:18px;
 }
 
 #number img {
     font-family: 'Lato', sans-serif;
+    font-size: 14px;
     color: #FFFFFF;
     opacity: 0.5;
-    margin-right: 0.4vw;
+    margin-right: 7px;
 }
 
 #number span {
     font-family: 'Lato', sans-serif;
-    font-size: 0.8vw;
+    font-size: 14px;
     color: #FFFFFF;
     opacity: 0.5;
 }
 
 #number p {
     font-family: 'Lato', sans-serif;
-    font-size: 1.3vw;
+    font-size: 22px;
     color: #FFFFFF;
-    margin: 0 0 1vw 0;
+    margin: 0;
+}
+
+#phone {
+    margin: 0 0 6px 0;
 }
 
 #content {
-    width: 61.5vw;
-    height: 11vw;
+    width: 1180px;
+    height: 209px;
     margin: auto;
     position: absolute;
-    left: 19.3vw;
-    top: 11vw;
+    left:370px;
+    top:208px;
 }
 
 #header {
-    width: 30vw;
-    height: 11vw;
+    width: 580px;
+    height: 209px;
     float: left;
 }
 
 #but {
-    width: 17.8vw;
-    height: 11vw;
+    width: 340px;
+    height: 194px;
     float: right;
 }
 
 #h_first {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 2.2vw;
+    font-size: 42px;
     color: white;
-    margin: 0 0 1.5vw 0;
+    margin: 0 0 38px 0;
 }
 
 #h_second {
     font-family: 'Lato', sans-serif;
-    font-size: 1vw;
+    font-size: 20px;
     color: #FFFFFF;
-    letter-spacing: 0.3vw;
-    line-height: 1.8vw;
+    letter-spacing: 5px;
+    line-height: 34px;
     margin: 0;
 }
 
 #button {
-    width: 17.8vw;
-    height: 3.5vw;
+    width: 340px;
+    height: 70px; 
     background: #FEE040;
-    border-radius: 0.2vw;
+    border-radius: 4px;  
     text-align: center;
-    margin-bottom: 2vw;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 0.9vw;
-    letter-spacing: 0.1vw;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 15px;
 }
 
 #b_first {
     font-family: 'Lato', sans-serif;
-    font-size: 0.75vw;
-    color: #FFFFFF;
-    line-height: 1.5vw;
+    font-size: 15px;
+    color: #FFFFFF; 
+    line-height: 28px;
 }
 
 #button img {
-    margin-right: 0.7vw;
+    margin-right: 12px;
 }
 
 #button:hover {
@@ -188,17 +176,17 @@ body {
 }
 
 #bot {
-    width: 74vw;
-    height: 11.5vw;
+    width: 1420.14px;
+    height: 228px;
     margin: auto;
     position: absolute;
-    left: 13vw;
-    top: 25vw;
+    left:249.86px;
+    top:480px;
 }
 
 #features {
-    width: 65vw;
-    height: 3vw;
+    width: 1020.14px;
+    height: 56px;
     position:absolute; 
     bottom:0;
     display: flex;
@@ -206,179 +194,172 @@ body {
 }
 
 #f_first, #f_second, #f_third {
-    width: 14.5vw;
-    height: 3vw;
+    width: 260.14px;
+    height: 56px;
     float: left;
-    margin-right: 5vw;
+    margin-right: 80px;
 }
 
 #first, #second, #third {
     font-family: 'Lato', sans-serif;
-    font-size: 1.1vw;
+    font-size: 20px;
     color: #FFFFFF; 
     float: right;
 }
 
-#f_first img, #f_second img, #f_third img {
-    width: 2.5vw;
-    height: auto;
-}
-
 #video {
-    width: 11.5vw;
-    height: 11.5vw;
+    width: 220px;
+    height: 220px;
     float: right;
-    text-align: center;
 }
 
 #line1 {
     position: absolute;
-    left: 13vw;
-    top: 4vw;
-    width: 0.2vw;
-    height: 36vw;
+    left: 250px;
+    top: 80px;
+    width: 2px;
+    height: 688px;
     opacity: 0.1;
     background-color: white;
 }
 
 #line2 {
     position: absolute;
-    left: 38vw;
-    top: 4vw;
-    width: 0.2vw;
-    height: 36vw;
+    left: 730px;
+    top: 80px;
+    width: 2px;
+    height: 688px;
     opacity: 0.1;
     background-color: white;
 }
 
 #line3 {
     position: absolute;
-    left: 63vw;
-    top: 4vw;
-    width: 0.2vw;
-    height: 36vw;
+    left: 1210px;
+    top: 80px;
+    width: 2px;
+    height: 688px;
     opacity: 0.1;
     background-color: white;
 }
 
 #line4 {
     position: absolute;
-    left: 87vw;
-    top: 4vw;
-    width: 0.2vw;
-    height: 36vw;
+    left: 1670px;
+    top: 80px;
+    width: 2px;
+    height: 688px;
     opacity: 0.1;
     background-color: white;
 }
 
 .why_we {
-    width: 99vw;
-    height: 23.5vw;
+    width: 1920px;
+    height: 449px;
 }
 
 .why_we #header{
     position: absolute;
-    left: 13vw;
-    top: 46vw;
-    width: 24vw;
-    height: 14vw;
+    left: 250px;
+    top: 868px;
+    width: 460px;
+    height: 260px;
 }
 
 #about1 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1.5vw; 
-    margin-top: 0;
+    font-size: 28px; 
 }
 
 #about2 {
     font-family: 'Lato', sans-serif;
-    font-size: 0.8vw;
-    letter-spacing: 0.05vw;
+    font-size: 13px;
+    letter-spacing: 1px;
     color: #707070;
     opacity: 0.7;
-    line-height: 1.5vw;
+    line-height: 28px;
 }
 
 #right_content {
-    width: 23vw;
-    height: 11vw;
+    width: 445px;
+    height: 178px;
     position: absolute;
-    left: 63vw;
-    top: 47vw;
+    left: 1210px;
+    top: 904px;
 }
 
 #right_content p{
     font-family: 'Lato', sans-serif;
-    font-size: 1.2vw;
+    font-size: 23px;
     font-weight: bold;
 }
 
 #right_content span{
     font-family: 'Lato', sans-serif;
-    font-size: 0.85vw;
+    font-size: 17px;
     color: #333333;
     opacity: 0.7;
-    letter-spacing: 0.05vw;
-    line-height: 1.5vw;
+    letter-spacing: 1px;
+    line-height: 28px;
     float: right;
 }
 
 #right_content div{
-    margin-bottom: 0.2vw;
+    margin-bottom: 5px;
 }
 
 #tv {
-    width: 15vw;
-    height: auto;
+    width: 300px;
+    height: 295px;
     position: absolute;
-    left: 43vw;
-    top: 45vw;
+    left: 810px;
+    top: 864px;
 }
 
 .services {
-    width: 99vw;
-    height: 40vw;
+    width: 1920px;
+    height: 753px;
     background-image: url('images/patrick-tomasso-89367-unsplash.jpg');
 }
 
 #services_mask {
-    width: 99vw;
-    height: 40vw;
+    width: 1920px;
+    height: 753px;
     background: linear-gradient(180deg, rgba(0, 78, 134, 0.9) 0%, rgba(10, 65, 104, 0.9) 100%);
 }
 
 .services #header {
-    width: 60vw;
-    height: 6vw;
+    width: 1085px;
+    height: 78px;
     position: absolute;
-    left: 22vw;
-    top: 68vw;
+    left: 483px;
+    top: 1317px;
     text-align: center;
 }
 
 #uslugi {
-    font-family: 'Bebas Neue';
-    font-size: 1.2vw;
-    line-height: 0vw;
-    letter-spacing: 1vw;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 20px;
     text-transform: uppercase;
     color: #FEE040;
 }
 
 #uslugi2 {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1.7vw;
-    line-height: 3vw;
-    letter-spacing: -0.02vw;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.5px;
     color: #FFFFFF;
 }
 
 #list {
-    width: 99vw;
-    height: 21.5vw;
+    width: 1920px;
+    height: 415px;
     position: absolute;
     left: 0;
-    top: 76vw;
+    top: 1450px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
@@ -386,249 +367,176 @@ body {
 
 #list::-webkit-scrollbar {width: 0; height: 0;}
 
-#list div:first-child {
-    margin-left: 13vw;
+#list div:first-of-type {
+    margin-left: 250px;
 }
 
 #list1 {
-    width: 21vw;
-    height: 21vw;
-    margin-right: 4.2vw;
-}
-
-#list1 img {
-    width: 20.9vw;
-    height: auto;
+    width: 400px;
+    height: 381px;
+    margin-right: 80px;
 }
 
 #dom {
     font-family: 'Lato', sans-serif;
-    font-size: 1.15vw;
+    font-size: 23px;
     color: white;
-    letter-spacing: 0.05vw;
+    letter-spacing: 1px;
 }
 
 #dom1 {
     font-family: 'Lato', sans-serif;
-    font-size: 0.82vw;
-    line-height: 1.5vw;
+    font-size: 15px;
+    line-height: 26px;
     color: #FFFFFF;
     opacity: 0.7;
 }
 
 #progress {
-    width: 30vw;
-    height: auto;
     position: absolute;
-    top: 99.5vw;
+    top: 1886px;
+}
+
+#ellipse {
+    border-radius: 100px;
+    position: absolute;
+    top: 40px;
+    left: 1240px;
+}
+
+#but_video {
+    position: absolute;
+    top: 100px;
+    left: 1300px;
 }
 
 .steps {
-    width: 99vw;
-    height: 41vw;
+    width: 1920px;
+    height: 2060px;
 }
 
 .steps #header {
-    width: 44vw;
-    height: 8vw;
+    width: 838px;
+    height: 156px;
     position: absolute;
-    left: 28vw;
-    top: 109vw;
+    top: 2074px;
+    left: 541px;
     text-align: center;
 }
 
 #s_first {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1vw;
-    line-height: 2vw;
+    font-size: 18px;
+    line-height: 27px;
     color: #505050;
 }
 
 #step_1 {
-    width: 99vw;
-    height: 23vw;
+    width: 1920px;
+    height: 441px;
     position: absolute;
-    top: 122vw;
+    top: 2330px;
+    left: 0;
 }
 
 #foto_slider {
-    width: 50vw;
-    height: 23vw;
-    background-image: url(images/henry.jpg);
+    width: 960px;
+    height: 441px;
+    background-image: url('images/henry.jpg');
     background-size: cover;
     float: left;
+    margin: 0;
 }
 
 #desk {
-    width: 49vw;
-    height: 23vw;
+    width: 960px;
+    height: 441px;
     background-color: #F5F5F5;
-    float: right;
+    margin-left: 960px;
 }
 
 #desk #header {
-    width: 24vw;
-    height: 6vw;
+    width: 460px;
+    height: 130px;
     position: absolute;
-    left: 54vw;
-    top: 4.5vw;
+    top: 80px;
+    left: 1030px;
 }
 
 #step {
-    width: 5vw;
-    height: 1.3vw;
+    width: 107px;
+    height: 27px;
     background-color: #FEE040;
     font-family: 'Lato', sans-serif;
-    font-size: 0.87vw;
+    font-size: 17px;
     font-weight: bold;
-    line-height: 1.4vw;
-    letter-spacing: 0.05vw;
+    line-height: 27px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #151515;
     float: left;
-    margin-right: -2vw;
+    margin-right: -40px;
 }
 
 #s_second {
     font-family: 'Lato', sans-serif;
-    font-size: 1.1vw;
+    font-size: 21px;
     font-weight: bold;
-    line-height: 1vw;
+    line-height: 25px;
     color: #151515;
     margin: 0;
 }
 
 #s_trird {
     font-family: 'Lato', sans-serif;
-    font-size: 0.9vw;
+    font-size: 18px;
     text-align: left;
     color: #333333;
     opacity: 0.7;
 }
 
 #quote {
-    width: 25vw;
-    height: 6vw;
+    width: 501px;
+    height: 119px;
     position: absolute;
-    left: 54vw;
-    top: 13vw;
+    left: 1030px;
+    top: 242px;
 }
 
 #ellipse2 {
-    width: 3vw;
-    height: 3vw;
+    width: 57px;
+    height: 57px;
     float: left;
-    border-radius: 99vw;
-    box-shadow: 0vw 1vw 4vw rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 0vw;
-    left: 0.15vw;
+    top: 0px;
+    left: 3px;
 }
 
 #ellipse_svg {
-    width: 9vw;
-    height: 9vw;
+    width: 160px;
+    height: 160px;
     position: absolute;
-    top: -2.08vw;
-    left: -2.85vw;
+    top: -35px;
+    left: -49px;
 }
 
 #q_first {
     font-family: 'Lato', sans-serif;
-    font-size: 0.8vw;
-    line-height: 1.2vw;
+    font-size: 15px;
+    line-height: 23px;
     color: #505050;
     opacity: 0.7;
-    margin: 0 0 0 5vw;
+    margin: 0 0 0 100px;
 }
 
 #q_second {
     font-family: 'Lato', sans-serif;
-    font-size: 0.72vw;
+    font-size: 14px;
     font-weight: bold;
     color: #151515;
     opacity: 0.7;
-    margin: 1vw 0 0 5vw;
+    margin: 21px 0 0 100px;
 }
 
-#line5 {
-    position: absolute;
-    left: 13vw;
-    top: 63.5vw;
-    width: 0.2vw;
-    height: 40vw;
-    opacity: 0.1;
-    background-color: white;
-}
-
-#line6 {
-    position: absolute;
-    left: 38vw;
-    top: 63.5vw;
-    width: 0.2vw;
-    height: 40vw;
-    opacity: 0.1;
-    background-color: white;
-}
-
-#line7 {
-    position: absolute;
-    left: 63vw;
-    top: 63.5vw;
-    width: 0.2vw;
-    height: 40vw;
-    opacity: 0.1;
-    background-color: white;
-}
-
-#line8 {
-    position: absolute;
-    left: 87vw;
-    top: 63.5vw;
-    width: 0.2vw;
-    height: 40vw;
-    opacity: 0.1;do
-    background-color: white;
-}
-
-#ellipse {
-    width: 7vw;
-    height: 7vw;
-    border-radius: 100vw;
-    margin-top: 2.2vw;
-}
-
-#stamp {
-    width: 11.5vw;
-    height: 11.5vw;
-    position: absolute;
-    top: 0;
-    left: 62.5vw;
-}
-
-#but_video {
-    width: 1.5vw;
-    height: auto;
-    position: absolute;
-    top: 5vw;
-    left: 68vw;
-}
-
-#but_video:hover {
-    cursor: pointer;
-}
-
-#icon {
-    width: 1.5vw;
-    height: auto;
-}
-
-#list1 #more {
-    width: 10vw;
-    height: auto;
-}
-
-#work {
-    width: 43vw;
-    height: auto;
-}
