@@ -664,7 +664,8 @@ body {
 #part3 {
     width: 960px;
     height: 512px;
-    float: left;
+    
+    background-color: #F5F5F5;
 }
 
 #center {
