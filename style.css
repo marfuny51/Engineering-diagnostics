@@ -848,3 +848,11 @@ body {
     position: absolute;
     top: 4542px;
 }
+
+#t_header {
+    width: 700px;
+    height: 249px;
+    position: absolute;
+    top:100px;
+    left: 970px;
+}
