@@ -899,5 +899,59 @@ body {
 }
 
 #arrow1 {
-    
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #FEE040;
+    position: absolute;
+    top:73px;
+    left:-19px;
+}
+
+#arrow1 img{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+#arrow2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #FEE040;
+    position: absolute;
+    top:73px;
+    left: 675px;
+}
+
+#arrow2 img{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+
+.quote_div {
+    width: 1920px;
+    height: 677px;
+    position: absolute;
+    top: 5193px;
+}
+
+#island {
+    width: 744px;
+    height: 677px;
+    position: absolute;
+    left: 930px;
+}
+
+#quote_first {
+    width: 809px;
+    height: 538px;
+    position: absolute;
+    left: 370px;
+    top: 124px;
 }
