@@ -939,6 +939,7 @@ body {
     height: 677px;
     position: absolute;
     top: 5193px;
+    background-color: #F5F5F5;
 }
 
 #island {
@@ -954,4 +955,58 @@ body {
     position: absolute;
     left: 370px;
     top: 124px;
+}
+
+#quote1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #5b5ba3;
+    margin: 0;
+}
+
+#quote2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    margin: 0;
+}
+
+#quote3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    width: 443px;
+    height: 252px;
+}
+
+#quote_first img {
+    position: absolute;
+    left: -40px;
+    top: 275px;
+}
+
+#span_quote1 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 67px;
+    top: 324px;
+    color: grey;
+}
+
+#span_quote2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 310px;
+    top: 314px;
+}
+
+#span_quote3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 17px;
+    position: absolute;
+    left: 310px;
+    top: 346px;
 }
